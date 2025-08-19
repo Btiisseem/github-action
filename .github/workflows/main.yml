@@ -2,13 +2,13 @@
  uses: ibtissam/send-mailer@v1.0.2
  with:
  host: smtp.google.com
- account: ${{secrets.ACCOUNT}}
+ account: ${{SECRETS_ACCOUNT}}
  password: ${{secrets.MAIL_PASSWORD}}
  sender: ibtissam
  from: ${{secrets.MAIL_ADDRESS}}
- to: u2588346312@gmail.com
+ to: examencloudsystemen_ibtissambouchouari@gmail.com
  subject: mail title.
- body: file://README.md
+ body: file://express.js
  contentType: text/html
   attachments: file://express.js
 
